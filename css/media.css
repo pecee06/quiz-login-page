@@ -1,0 +1,105 @@
+@media (max-width:1200px){
+    .heading{
+        justify-content: center;
+    }
+    .container{
+        padding: 0;
+    }
+    .toBeHidden{
+        display: none;
+    }
+    .toBeVisible{
+        display: block;
+    }
+    .signup {
+        display: inline;
+    }
+    .logo{
+        display: none;
+    }
+    .btn{
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width:850px){
+    .container{
+        width: 60vw;
+    }
+    .heading{
+        display: block;
+    }
+    .btn{
+        font-size: 2vw;
+    }
+    .login{
+        font-size: 3vw;
+    }
+    .fb,.insta,.linkedin{
+        height: 3vw;
+        width: auto;
+    }
+    footer span{
+        font-size: 2.2vw;
+    }
+    .qcm,.manit{
+        width: 9vw;
+    }
+}
+
+@media (max-width:520px){
+    .login{
+        font-size: 5vw;
+    }
+    .btn{
+        font-size: 3.8vw;
+    }
+    .container{
+        width: 80vw;
+    }
+    .company-logos{
+        width: 4vw;
+    }
+    .logos span {
+        font-size: 5vw;
+      }
+      .fb,.insta,.linkedin{
+        height: 5vw;
+    }
+    footer span{
+        font-size: 3vw;
+    }
+    .qcm,.manit{
+        width: 10vw;
+    }
+}
+
+@media (max-width:370px){
+    .login{
+        font-size: 6vw;
+    }
+    .container{
+        width: 90vw;
+    }
+    .company-logos{
+        width: 5vw;
+    }
+    form label{
+        font-size: 4vw;
+    }
+    .signup{
+        display: block;
+    }
+    .fb,.insta,.linkedin{
+        height: 7vw;
+    }
+    footer{
+        justify-content: center;
+    }
+    footer span{
+        font-size: 4vw;
+    }
+    .qcm,.manit{
+        width: 12vw;
+    }
+}
